@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PS15722_NguyenChiHieu_ASM(failed)">
+    <classes>
+      <class name="Test.LoginTest">
+        <methods>
+          <include name="multipleLoginTest"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.LoginTest -->
+    </classes>
+  </test> <!-- PS15722_NguyenChiHieu_ASM(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
